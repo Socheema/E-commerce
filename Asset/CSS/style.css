@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+/* !The container wrapper */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #a4a4ad;
+    padding: 0 10%;
+
+}
+
+
+/* ! The navigation */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+     z-index: 100;
+}
+
+
+/* ! The logo inside the nav */
+nav .logo{
+    width: 100px;
+    padding: 5px 0;
+    cursor:pointer;
+    transition: all 1s ease;
+
+}
+
+
+/* ! hover effect on the logo */
+nav .logo:hover{
+    background-color: darkslateblue;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+
+/* ! The ul, li inside the nag */
+nav ul li{
+    display: inline-block;
+    padding: 5px 20px;
+   font-size:14px;
+   letter-spacing:1px;
+   font-weight:bold;
+  list-style: none;
+  
+
+
+}
+
+
+/* ! The anchor element inside the nav */
+ul li a{
+    text-decoration:none;
+    cursor:pointer;
+     color:#184280;
+    
+}
+
+
+/* ! The hover effect on all the anchor element inside the nav */
+ul li a:hover{
+    border-bottom: 2px solid #041e38;
+    color: #333;
+}
+
+/* ! The container which contains the h1, p, and button */
+.header{
+    margin-top: 100px;
+    max-width: 600px;
+}
+
+.header h1{
+    margin-bottom: 20px;
+    font-size: 46px;
+    color: #184280;
+}
+
+.header p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+
+/* ! The styling on the shop more button */
+.header a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    background-color: #184280;
+    color: #efefef;
+    padding: 10px 20px;
+    width: 120px;
+    border: 1px solid #184280;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 1s ease;
+}
+
+/* !The hover effect i want on the shop more button */
+.header a:hover{
+    border-radius: 30px;
+    background-color: #333;
+    color: #184280;
+    border: none;
+}
+
+/* !The div which contains the image */
+.picx{
+    position: absolute;
+    top: 0;
+    right: 12%;
+    background: linear-gradient(100deg, #a4a4ad, #184280);
+    z-index: 1;
+    /* box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); */
+
+}
+
+/* !The div class with the image insise */
+.picx img{
+    display:inline-block;
+    width: 300px;
+    padding-top: 100px;
+    margin-bottom: -150px;
+}
